@@ -1,0 +1,59 @@
+body {
+    background-color: cadetblue;
+    font-size: 25px;
+    font-family: fantasy;
+}
+
+#score {
+    float: left;
+    margin-left: 50px;
+}
+
+#timer {
+    float: right;
+    margin-right: 50px;
+}
+
+#sketch1 {
+    color: rgb(198, 1, 1);
+}
+
+button {
+    float: right;
+    margin-right: 20px;
+    ;
+}
+
+h1 {
+    font-family: 'Special Elite', fantasy;
+    color: rgb(38, 0, 255);
+    background-color: cornsilk;
+    font-size: 38px;
+}
+
+#show_sketch {
+    float: right;
+}
+
+canvas {
+    border: 5px solid white;
+    border-radius: 20px;
+    margin-top: 150px;
+    box-shadow: 5px 5px 5px grey;
+    box-shadow: 1px 1px 38px #ffffff;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+
+    from {
+        box-shadow: 1px 1px 38px grey;
+    }
+
+    to {
+        box-shadow: 1px 1px 38px white;
+    }
+
+}
